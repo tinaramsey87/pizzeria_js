@@ -1,4 +1,4 @@
-## Pizza Parlor
+# Pizza Parlor
 
 Lets you choose pizza toppings and what size pizza you want and cuts the pizza into slices so you can share with friends.
 
@@ -9,18 +9,18 @@ https://github.com/tinaramsey87/pizzeria_js.git
 
 Open 'pizza.html' in web browser.
 
-# Author
+## Author
 
 Written by Tina Ramsey
 
-# Credits
+## Credits
 
 Button effects from Hover.css http://ianlunn.github.io/Hover/
 
-# License
+## License
 
 GNU GPL License
 
-# Known Issues
+## Known Issues
 
 None at this time.
