@@ -28,7 +28,6 @@ $(document).ready(function() {
     $(pizza.toppings = topping);
     $(pizza.size(diameter));
     $(pizza.cut());
-    debugger;
 
     $("#sliced").show();
     $(".diameter").text(diameter)

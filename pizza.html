@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/hover.css" rel="stylesheet" media="all">
     <script src="js/jquery-1.11.2.js"></script>
     <script src="js/scripts.js"></script>
     <title>Pizzeria</title>
@@ -23,13 +24,14 @@
 
         <h5>How big do you want the pizza to be?</h5>
         <p>A good size for one person is 6 to 10 inches; for large parties try 30 inches or more</p>
+        <label for="diameter" id="label">inches</label>
         <input type="text" id="diameter" required>
 
-        <button type="submit" class="btn btn-med btn-warning">Cut Your Pizza</button>
+        <button type="submit" class="btn btn-lg btn-warning hvr-sweep-to-top" id="button">Cut Your Pizza</button>
       </form>
     </div>
 
-    <div id="sliced">
+    <div class="well well-lg" id="sliced">
       <h4>Your <span class="diameter"></span> inch <span class="toppings"></span> pizza will be cut into <span class="slices"></span> delicious slices for you to enjoy.</h4>
     </div>
   </body>

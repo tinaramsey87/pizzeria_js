@@ -1,0 +1,63 @@
+#sliced {
+  display: none;
+}
+
+#menu {
+  margin: 0 auto;
+  max-width: 500px;
+  max-height: 320px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+input {
+  border-radius: 10px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+select {
+  font-size: 14px;
+}
+
+p {
+  font-weight: bold;
+}
+
+#label {
+  float: right;
+  margin-right: 268px;
+  margin-top: 8px;
+  font-size: 15px;
+}
+
+#button {
+  margin-left: 160px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 0px;
+  background-color: rgba(255, 219, 144, 0.9);
+  color: black;
+}
+
+.well {
+  margin-top: 40px;
+  text-align: center;
+  background-color: FFDB90;
+}
+
+.jumbotron {
+  background-color: FFDB90;
+}
+
+body {
+  background-image: url('../img/pizzabg.jpg');
+}
