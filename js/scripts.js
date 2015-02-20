@@ -18,3 +18,25 @@ var Pizza = {
     }
   },
 };
+
+$(document).ready(function() {
+  $("#pizza-select").submit(function(event) {
+    var pizza = Object.create(Pizza)
+    var diameter = parseInt($("input#diameter").val());
+    var e = document.getElementById("topping");
+    var topping = e.options[e.selectedIndex].value;
+    $(pizza.toppings = topping);
+    $(pizza.size(diameter));
+    $(pizza.cut());
+    debugger;
+
+    $("#sliced").show();
+    $(".diameter").text(diameter)
+    $(".toppings").text(topping)
+    $(".slices").text(pizza.slices)
+
+    $("input#diameter").val("");
+
+    event.preventDefault();
+  });
+});
