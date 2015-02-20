@@ -10,17 +10,26 @@
   </head>
   <body>
     <div class="jumbotron">
-      <h1>Welcome to the Pizzeria</h1>
+      <span class="ital-head"><h1>Benvenuto alla Pizzeria!</h1></span>
+      <span class="eng-head"><h1>Welcome to the Pizzeria!</h1></span>
+
+      <button class="btn btn-sm hvr-bounce-in" id="italian">Italiano</button>
+      <button class="btn btn-sm hvr-bounce-in" id="english">English</button>
+      <button class="btn btn-sm hvr-bounce-in" id="about">About Pizzeria</button>
+      <button class="btn btn-sm hvr-bounce-in" id="order">Order Pizza</button>
     </div>
 
-    <div id="menu">
+    <div id="menu-english">
       <h3>Build your pizza here:</h3>
-      <form id="pizza-select">
-        <h5>Choose your toppings:</h5>
+      <form id="pizza-select-eng">
+        <h5>Choose your topping:</h5>
         <select id="topping" name="topping">
           <option value="cheese" selected>Cheese</option>
           <option value="pepperoni">Pepperoni</option>
-        </select>
+          <option value="olive">Olives</option>
+          <option value="mushroom">Mushroom</option>
+          <option value="bacon">Bacon</option>
+        </select> <p>Cheese pizzas are cut into more slices so you can share with more friends!</p>
 
         <h5>How big do you want the pizza to be?</h5>
         <p>A good size for one person is 6 to 10 inches; for large parties try 30 inches or more</p>
@@ -31,8 +40,52 @@
       </form>
     </div>
 
-    <div class="well well-lg" id="sliced">
+    <div class="well well-lg" id="sliced-english">
       <h4>Your <span class="diameter"></span> inch <span class="toppings"></span> pizza will be cut into <span class="slices"></span> delicious slices for you to enjoy.</h4>
+    </div>
+    <div class="well well-lg" id="noway">
+      <h4>That pizza is too small to share!</h4>
+    </div>
+
+    <div id="menu-italian">
+      <h3>Costruisci la tua pizza qui:</h3>
+      <form id="pizza-select-ital">
+        <h5>Scegliere i condimenti</h5>
+        <select id="topping2" name="topping">
+          <option value="formaggio" selected>Formaggio</option>
+          <option value="peperoni">Peperoni</option>
+          <option value="olive">Olive</option>
+          <option value="fungo">Fungo</option>
+          <option value="bacon">Bacon</option>
+        </select><p>Pizze di formaggio vengono tagliati in piu sezioni in modo da poter condividere con altri amici!</p>
+
+        <h5>Quanto grande volete la pizza sia ?</h5>
+        <p>Una buona dimensione per una persona e di 6 a 10 pollici ; per i grandi partiti tentano di 30 pollici o piu</p>
+        <label for="diameter" id="label">pollici</label>
+        <input type="text" id="diameter2" required>
+
+        <button type="submit" class="btn btn-lg btn-warning hvr-sweep-to-top" id="button">Tagliare la pizza</button>
+      </form>
+    </div>
+
+    <div class="well well-lg" id="sliced-italian">
+      <h4>La tua <span class="diameter"></span> pollice <span class="toppings"></span> pizza verra tagliato in <span class="slices"></span> deliziose fette per il tuo divertimento. Buon appetito!</h4>
+    </div>
+    <div class="well well-lg" id="noway2">
+      <h4>Che pizza e troppo piccolo per condividere!</h4>
+    </div>
+
+
+    <div id="about-english">
+      <p>This pizzeria provides free pizza to those who cannot afford to purchase delicious food.
+        We encourage sharing so we cut our pizzas into as many slices as possible.
+        Our magically enhanced brick pizza ovens allow us to cook pizza of any diameter. Toppings are limited due to the expense of running magical non-profit pizza kitchens.</p>
+    </div>
+
+    <div id="about-italian">
+      <p>Questa pizzeria offre pizza gratis a coloro che non possono permettersi di acquistare cibo delizioso .
+      Incoraggiamo condividendo cosi abbiamo tagliato le nostre pizze in tante fette possibili .
+      I nostri forni per pizza mattone magicamente avanzate ci permettono di cucinare la pizza di qualsiasi diametro . Toppings sono limitati a causa delle spese di esecuzione magiche cucine di pizza senza scopo di lucro.</p>
     </div>
   </body>
 </html>

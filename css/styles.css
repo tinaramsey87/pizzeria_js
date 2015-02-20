@@ -1,15 +1,64 @@
-#sliced {
+#sliced-english {
   display: none;
 }
 
-#menu {
+#sliced-italian {
+  display: none;
+}
+
+#noway {
+  display: none;
+}
+
+#noway2 {
+  display: none;
+}
+
+#menu-english {
   margin: 0 auto;
   max-width: 500px;
-  max-height: 320px;
+  max-height: 400px;
   padding: 10px 10px 10px 10px;
   border: 2px solid black;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.6);
+}
+
+#menu-italian {
+  margin: 0 auto;
+  max-width: 500px;
+  max-height: 400px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: none;
+}
+
+#about-english {
+  margin: 0 auto;
+  max-width: 500px;
+  max-height: 400px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: none;
+}
+
+#about-italian {
+  margin: 0 auto;
+  max-width: 500px;
+  max-height: 400px;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  display: none;
+}
+
+.ital-head {
+  display: none;
 }
 
 input {
@@ -22,10 +71,6 @@ h3 {
 
 h5 {
   font-size: 20px;
-}
-
-select {
-  font-size: 14px;
 }
 
 p {
@@ -46,6 +91,10 @@ p {
   border-radius: 0px;
   background-color: rgba(255, 219, 144, 0.9);
   color: black;
+}
+
+#order {
+  display: none;
 }
 
 .well {
